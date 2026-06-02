@@ -8,7 +8,7 @@
 
 ## 这是什么？
 
-这是一个 [OpenCode](https://github.com/anomalyco/opencode) 的 skill 文件。
+这是一个通用的 AI Agent skill，支持任何实现 skill 机制的 AI 编程/对话客户端（如 CodeBuddy、Claude Code、Cursor 等）。
 
 我是一个极度善于自我分析的程序员转画师，我的最大毛病是——当我画不出来的时候，我的第一反应不是"再画一张"，而是写一篇三千字的文章去分析"为什么我画不出来"。这个 skill 就是用来对抗这个毛病的。
 
@@ -40,15 +40,12 @@ naer-snap-out/
 
 ## 安装
 
-把整个 `naer-snap-out/` 目录放到 OpenCode 的 skills 目录下：
-
-- Windows: `~/.config/opencode/skills/naer-snap-out/`
-- macOS/Linux: `~/.config/opencode/skills/naer-snap-out/`
+把整个 `naer-snap-out/` 目录放到 AI 客户端的 skills 目录下（具体路径取决于你使用的客户端，一般为 `~/.config/<client>/skills/naer-snap-out/` 或项目下的 `.codebuddy/skills/naer-snap-out/`）。
 
 ## 前提条件
 
 只看这个仓库没有任何用处。它需要：
-1. 安装了 OpenCode
+1. 一个支持 skill 机制的 AI 客户端
 2. 你恰好是那尔本人（因为触发条件基于那尔特有的思维模式）
 3. 你恰好今晚又在写方法论而不是画画
 
